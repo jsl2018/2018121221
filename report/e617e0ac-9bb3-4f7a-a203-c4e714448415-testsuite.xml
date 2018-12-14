@@ -1,0 +1,75 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544787602830" stop="1544787602927">
+  <name>scripts.test-01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544787602830" status="passed" stop="1544787602851">
+      <name>Test01.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14564-MainThread"/>
+        <label name="host" value="LAPTOP-UMEIS647"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1544787602850" status="passed" stop="1544787602850">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments>
+            <attachment source="aed44f21-ad19-45b0-8d66-d230a886518a-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1544787602858" status="passed" stop="1544787602861">
+      <name>Test01.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14564-MainThread"/>
+        <label name="host" value="LAPTOP-UMEIS647"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544787602864" status="failed" stop="1544787602924">
+      <name>Test01.test003</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test-01.Test01 object at 0x000001F66BE0BD30&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test003(self):
+        print("test003被执行了")
+&gt;       assert 0
+E       assert 0
+
+scripts\test-01.py:17: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="14564-MainThread"/>
+        <label name="host" value="LAPTOP-UMEIS647"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544787602926" status="passed" stop="1544787602927">
+      <name>Test01.test004</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="14564-MainThread"/>
+        <label name="host" value="LAPTOP-UMEIS647"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
